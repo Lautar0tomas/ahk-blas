@@ -6,7 +6,8 @@ CoordMode, ToolTip, Screen
 SetTimer, CheckActiveWindow, 50  ; Verifica cada 100 milisegundos
 return
 
-~LButton:: SetTimer, CheckActiveWindow, Off
+; el modificador (~) permite que el atajo no se bloquee y pueda tener su uso predeterminado.
+~LButton:: SetTimer, CheckActiveWindow, Off 
 ~RButton:: SetTimer, CheckActiveWindow, Off
 ~!Tab:: SetTimer, CheckActiveWindow, On
 
