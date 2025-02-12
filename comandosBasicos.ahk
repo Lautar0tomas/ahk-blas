@@ -93,7 +93,7 @@ CapsLock::{
     Send("+{Down}")
 }
 
-^+Esc::{
+^+Esc::{ ; sale del script  
     ExitApp
 }
 
