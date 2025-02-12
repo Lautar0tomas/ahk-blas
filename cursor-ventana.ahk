@@ -10,6 +10,7 @@ return
 ~LButton:: SetTimer, CheckActiveWindow, Off 
 ~RButton:: SetTimer, CheckActiveWindow, Off
 ~!Tab:: SetTimer, CheckActiveWindow, On
+~LWin:: SetTimer, CheckActiveWindow, On
 
 CheckActiveWindow:
     ; Obtener el identificador de la ventana activa
