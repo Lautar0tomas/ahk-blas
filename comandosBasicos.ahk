@@ -1,4 +1,5 @@
 #Requires AutoHotkey v2.0
+; comentario estupido 
 
 ^!f::{
     Send("{Click}")
@@ -93,7 +94,7 @@ CapsLock::{
     Send("+{Down}")
 }
 
-^+Esc::{ ; sale del script  
+^+Esc::{   
     ExitApp
 }
 
