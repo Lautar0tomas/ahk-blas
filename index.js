@@ -5,16 +5,14 @@ miVAR[1] = 300 ;
 miVAR[2] = 9 ; 
 
 
-let contenedor = miVAR[0] ; 
+let contenedor = 1 ; 
 
 
-for(i = 0 ; i < 2 ; i ++) {
+for(i = 0 ; i < 3 ; i ++) {
 
-    if( contenedor > miVAR[i + 1]){
-        contenedor = miVAR[i + 1] ;
-    }
-    
+    contenedor *= miVAR[i];
     
 }
-console.log("el numero del arrai mas pequeño que hay es : " , contenedor ) ;
-console.log("primer commit de la rama javascript ");
+
+
+console.log("la multiplicacion del array es : " , contenedor);
