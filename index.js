@@ -17,4 +17,4 @@ for(i = 0 ; i < 2 ; i ++) {
     
 }
 console.log("el numero del arrai mas pequeño que hay es : " , contenedor ) ;
-
+console.log("primer commit de la rama javascript ");
