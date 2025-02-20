@@ -1,8 +1,8 @@
 let miVAR = [] ;
 
-miVAR[0] = 12;
-miVAR[1] = 300 ; 
-miVAR[2] = 9 ; 
+miVAR[0] = 23;
+miVAR[1] = 43340 ; 
+miVAR[2] = 230; 
 
 
 let contenedor = 1 ; 
