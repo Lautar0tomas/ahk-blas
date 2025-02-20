@@ -21,6 +21,9 @@
     Send("{Right}")
 }
 
+; comentarios por cada boludez que hago 
+
+
 !Space::{
     Send("^{Left}")
 }
